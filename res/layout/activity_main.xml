@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/color_rectangle"
+    android:orientation="horizontal"
+    android:padding="30dp" >
+
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="25dp"
+            android:layout_weight="0.2"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textSize="40dp" />
+
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="0.2"
+            android:background="@drawable/roundshapebutton"
+            android:text="Start the Game" />
+        
+        <Button
+            android:id="@+id/tutorialButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="0.2"
+            android:background="@drawable/roundshapebutton"
+            android:text="Tutorial" />
+
+        <Button
+            android:id="@+id/infoButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="0.2"
+            android:background="@drawable/roundshapebutton"
+            android:text="How To Play" />
+
+        <Button
+            android:id="@+id/highScores"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="0.2"
+            android:background="@drawable/roundshapebutton"
+            android:text="View Highscores" />
+    </LinearLayout>
+
+</LinearLayout>

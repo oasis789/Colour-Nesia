@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tutorialrl"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/color_rectangle" >
+
+    <Button
+        android:id="@+id/btutorialDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:background="@drawable/selector_tool_bg"
+        android:text="Done" />
+
+    <LinearLayout
+        android:id="@+id/lltutorialBlackLine"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btutorialDone"
+        android:background="#000000" >
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/tutorial_canvas_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/lltutorialBlackLine"
+        android:layout_centerInParent="false"
+        android:background="@android:color/transparent" >
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tutorialinstructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btutorialDone"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/btutorialDone"
+        android:layout_toRightOf="@+id/btutorialDone"
+        android:text="Instructions"
+        android:gravity="center" />
+
+</RelativeLayout>

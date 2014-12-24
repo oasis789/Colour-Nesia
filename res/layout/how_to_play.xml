@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tvInstructions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/instructions" />
+
+        <Button
+            android:id="@+id/bBack"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_below="@+id/tvInstructions"
+            android:background="@drawable/roundshapebutton"
+            android:text="Back to Main Menu" />
+
+        <Button
+            android:id="@+id/bStartTutorial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvInstructions"
+            android:layout_toRightOf="@+id/bBack"
+            android:background="@drawable/roundshapebutton"
+            android:text="Start Tutorial" />
+        
+        <Button
+            android:id="@+id/bStartGame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/bBack"
+            android:layout_alignTop="@+id/bBack"
+            android:layout_below="@+id/tvInstructions"
+            android:layout_toRightOf="@+id/bStartTutorial"
+            android:background="@drawable/roundshapebutton"
+            android:text="Start The Game" />
+
+    </RelativeLayout>
+
+</ScrollView>

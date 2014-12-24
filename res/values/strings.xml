@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">Colour Nesia</string>
+    <string name="menu_settings">Settings</string>
+    <string name="instructions"> A combination of shapes filled with different colours will flash on to the screen. The colours in the shapes will disappear and only the blank shapes will be shown.
+        \n\nYour job is to try and remember what colours were in which shapes and fill them. You will be racing against the clock so time is everything. \n \nGood Luck!!!  	</string>
+    <string name="how_to_play_title">How to Play</string>
+    <string name="time_left">Time Left:</string>
+    <string name="score">Score:</string>
+
+</resources>
